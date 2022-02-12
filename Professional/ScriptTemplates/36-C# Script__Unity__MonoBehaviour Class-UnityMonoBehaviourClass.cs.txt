@@ -1,8 +1,0 @@
-using UnityEngine;
-
-#ROOTNAMESPACEBEGIN#
-	internal sealed class #SCRIPTNAME# : MonoBehaviour
-	{
-		#NOTRIM#
-	}
-#ROOTNAMESPACEEND#

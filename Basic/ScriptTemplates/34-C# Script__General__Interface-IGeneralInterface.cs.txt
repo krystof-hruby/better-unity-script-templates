@@ -1,6 +1,0 @@
-#ROOTNAMESPACEBEGIN#
-	public interface #SCRIPTNAME#
-	{
-		#NOTRIM#
-	}
-#ROOTNAMESPACEEND#
