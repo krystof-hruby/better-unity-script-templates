@@ -1,0 +1,35 @@
+using UnityEngine;
+
+#ROOTNAMESPACEBEGIN#
+	internal sealed class #SCRIPTNAME# : MonoBehaviour
+	{
+		#region MonoBehaviour Methods
+		#NOTRIM#
+		private void Awake()
+		{
+			#NOTRIM#
+		}
+		#NOTRIM#
+		private void Start()
+		{
+			#NOTRIM#
+		}
+		#NOTRIM#
+		private void FixedUpdate()
+		{
+			#NOTRIM#
+		}
+		#NOTRIM#
+		private void Update()
+		{
+			#NOTRIM#
+		}
+		#NOTRIM#
+		private void LateUpdate()
+		{
+			#NOTRIM#
+		}
+		#NOTRIM#
+		#endregion MonoBehaviour Methods
+	}
+#ROOTNAMESPACEEND#
