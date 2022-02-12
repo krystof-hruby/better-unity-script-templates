@@ -1,0 +1,6 @@
+#ROOTNAMESPACEBEGIN#
+	internal sealed class #SCRIPTNAME#
+	{
+		#NOTRIM#
+	}
+#ROOTNAMESPACEEND#
