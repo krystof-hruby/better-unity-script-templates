@@ -1,6 +1,0 @@
-#ROOTNAMESPACEBEGIN#
-	internal abstract class #SCRIPTNAME#
-	{
-		#NOTRIM#
-	}
-#ROOTNAMESPACEEND#
