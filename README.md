@@ -79,6 +79,6 @@ Advantages and disadvantages[^installationlvl]
 ## About
 This is a README file for "Better Unity Script Templates" by kh (https://github.com/krystof-hruby)
 
-Version: v2.0
+Version: v2.1
 
 Find the latest version of the project at: https://github.com/krystof-hruby/better-unity-script-templates
