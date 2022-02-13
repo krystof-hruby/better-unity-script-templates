@@ -25,7 +25,7 @@ several options are now provided. The specific options displayed will depend on 
 The templates can be included in two ways: on a [**Project level**](<#Project Level (preferred)>) (preferred) or on a [**Unity installation level**](<#Unity Installation Level>).
 
 ### Project Level (preferred)
-Advantages and disadvantages[^projectlvl]
+Advantages and disadvantages [^projectlvl]
 
 [^projectlvl]: 
 	- Advantages
@@ -41,14 +41,14 @@ Advantages and disadvantages[^projectlvl]
 
 **PROCESS**:
 1. Choose a specific [variant](https://github.com/krystof-hruby/better-unity-script-templates/blob/main/Variant%20Descriptions%20(v2.0).md)
-2. Place the folder "ScriptTemplates" into your Project's Assets folder[^note]
+2. Place the folder "ScriptTemplates" into your Project's Assets folder [^note]
 	- IMPORTANT: The path **must** be exactly: Assets/ScriptTemplates/\<the_files_from_the_folder\>
 3. Restart Unity
 
 [^note]: This will overrule the Unity's default ScriptTemplates folder for this Project]
 
 ### Unity Installation Level
-Advantages and disadvantages[^installationlvl]
+Advantages and disadvantages [^installationlvl]
 
 [^installationlvl]: 
 	- Advantages
