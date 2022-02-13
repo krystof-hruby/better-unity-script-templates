@@ -37,9 +37,11 @@ Advantages and disadvantages[^projectlvl]
 
 **PROCESS**:
 1. Choose a specific [variant](<#Variants v2.0>)
-2. Place the folder "ScriptTemplates" into your Project's Assets folder ^[This will overrule the Unity's default ScriptTemplates folder for this Project]
+2. Place the folder "ScriptTemplates" into your Project's Assets folder[^note]
 	- IMPORTANT: The path **must** be exactly: Assets/ScriptTemplates/\<the_files_from_the_folder\>
 3. Restart Unity
+
+[^note]:This will overrule the Unity's default ScriptTemplates folder for this Project]
 
 ### Unity Installation Level
 Advantages and disadvantages[^installationlvl]
@@ -74,14 +76,17 @@ Check: [Namespace Generation](<#Namespace Generation>) to learn about how `names
 
 ### Blank
 "Always start with a blank sheet."
+
 The C# Script now comes with no pre-generated code.^[Note: the file is *completely* blank - even  `namespace` will **not** be generated)].
 
 ### Simple
 "*Update is called once per frame*, I get it! Now get out of my scripts!"
+
 The C# Script still creates a `class` derived from `MonoBehaviour`, however now, unused `using`s, comments, and Methods are removed (creates blank `MonoBehaviour` `class`).
 
 ### Basic
 "For game designers who don't like to code."
+
 Several new (fundamental) options are now provided. They are grouped into "General" (general C# templates) and "Unity" (Unity specific templates) and are:
 
 - General
@@ -92,7 +97,7 @@ Several new (fundamental) options are now provided. They are grouped into "Gener
 	- MonoBehaviour Class
 	- MonoBehaviour Class (With Methods)[^methods]
 
-	[^methods]: Regularly used `MonoBehaviour` Methods included and neatly packaged in a "MonoBehaviour Methods" `#region`. These are:
+[^methods]: Regularly used `MonoBehaviour` Methods included and neatly packaged in a "MonoBehaviour Methods" `#region`. These are:
 		- `Awake()`
 		- `Start()`
 		- `FixedUpdate()`
@@ -101,6 +106,7 @@ Several new (fundamental) options are now provided. They are grouped into "Gener
 
 ### Classic
 "How it should have been..."
+
 Multiple new options are now provided. They are grouped into "General" (general C# templates) and "Unity" (Unity specific templates) and are:
 
 - General
@@ -117,6 +123,7 @@ Multiple new options are now provided. They are grouped into "General" (general 
 
 ### Professional
 "I take my Project's management and code quality seriously."
+
 Same as [Classic](#Classic), but with improved features:
 
 - Access modifier: `internal`
@@ -133,3 +140,8 @@ Scripts will be generated with an incorporated `namespace`, **if set**. Project'
 Specific Assembly's "Root Namespace" can be set in:
 
 > \<corresponding\>Assembly Definition -> Root Namespace
+
+## About
+This is a README file for "Better Unity Script Templates" by kh.
+
+Find the last version of the project at: https://github.com/krystof-hruby/better-unity-script-templates
