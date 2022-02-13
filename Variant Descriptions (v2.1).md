@@ -9,7 +9,7 @@ There are currently five variants: [Blank](#Blank), [Simple](#Simple), [Basic](#
 ## Blank
 "Always start with a blank sheet."
 
-The C# Script now comes with no pre-generated code.[^note]
+The C# Script now comes with no pre-generated code. [^note]
 
 [^note]: Note: the file is *completely* blank - even  `namespace` will **not** be generated).
 
@@ -34,10 +34,9 @@ Several new (fundamental) options are now provided. They are grouped into "Gener
 	- Static Class
 - Unity
 	- MonoBehaviour Class
-	- MonoBehaviour Class (With Methods)[^methods]
+	- MonoBehaviour Class (With Methods) [^methods]
 
-[^methods]: 
-Regularly used `MonoBehaviour` Methods included and neatly packaged in a "MonoBehaviour Methods" `#region`. These are:
+[^methods]: Regularly used `MonoBehaviour` Methods included and neatly packaged in a "MonoBehaviour Methods" `#region`. These are:
 	- `Awake()`
 	- `Start()`
 	- `FixedUpdate()`
@@ -62,7 +61,7 @@ Multiple new options are now provided. They are grouped into "General" (general 
 	- Abstract Class
 - Unity
 	- MonoBehaviour Class
-	- MonoBehaviour Class (With Methods)[^methods]
+	- MonoBehaviour Class (With Methods) [^methods]
 	- ScriptableObject Class
 
 [Classic Variant Example](<#Simple/Basic/Classic MonoBehaviour Class>)
@@ -83,7 +82,7 @@ Multiple new options are now provided. They are grouped into "General" (general 
 	- Abstract Class
 - Unity
 	- MonoBehaviour Class
-	- MonoBehaviour Class (With Methods)[^methods]
+	- MonoBehaviour Class (With Methods) [^methods]
 	- ScriptableObject Class
 
 These are the same as [Classic](#Classic), but with improved features:
