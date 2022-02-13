@@ -4,6 +4,8 @@
 
 As default, Unity only provides a single (substandard) C# Script template (the pre-generated code that appears in a C# Script after its creation in the Assets folder). Considering how simple it is to alter, this should be recognized as a crime against the gamedev community. This small project aims to fix this deficiency.
 
+---
+
 ## How does it work
 When creating a C# Script inside the Assets folder:
 
@@ -14,6 +16,8 @@ or
 >  \[+\] -> C# Script)
 
 several options are now provided. The specific options displayed will depend on the variant you choose. Variant descriptions can be found at: https://github.com/krystof-hruby/better-unity-script-templates/blob/main/Variant%20Descriptions%20(v2.0).md
+
+---
 
 ## Instructions for use
 **Nothing needs to be installed.** The templates are just a simple (specifically named and formatted) .txt files. Unity only needs to find them at a specific location and they will be automatically read and loaded.
@@ -69,6 +73,8 @@ Advantages and disadvantages[^installationlvl]
 			- > /Applications/Unity/Hub/Editor/\<Unity_installation_version_numbers\>/Contents/Resources/ScriptTemplates
 
 3. Restart Unity
+
+---
 
 ## About
 This is a README file for "Better Unity Script Templates" by kh.
