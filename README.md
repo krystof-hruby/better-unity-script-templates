@@ -13,7 +13,7 @@ or
 
 >  \[+\] -> C# Script)
 
-several options are now provided. The specific options displayed will depend on the variant you choose. Variant descriptions can be found at: 
+several options are now provided. The specific options displayed will depend on the variant you choose. Variant descriptions can be found at: https://github.com/krystof-hruby/better-unity-script-templates/blob/main/Variant%20Descriptions%20(v2.0).md
 
 ## Instructions for use
 **Nothing needs to be installed.** The templates are just a simple (specifically named and formatted) .txt files. Unity only needs to find them at a specific location and they will be automatically read and loaded.
@@ -36,7 +36,7 @@ Advantages and disadvantages[^projectlvl]
 		- Adds another item (folder) to the Project's Assets folder
 
 **PROCESS**:
-1. Choose a specific [variant]()
+1. Choose a specific [variant](https://github.com/krystof-hruby/better-unity-script-templates/blob/main/Variant%20Descriptions%20(v2.0).md)
 2. Place the folder "ScriptTemplates" into your Project's Assets folder[^note]
 	- IMPORTANT: The path **must** be exactly: Assets/ScriptTemplates/\<the_files_from_the_folder\>
 3. Restart Unity
@@ -60,7 +60,7 @@ Advantages and disadvantages[^installationlvl]
 			- Will always affect all Projects (of the same Unity installation)
 
 **PROCESS**:
-1. Choose a specific [variant]()
+1. Choose a specific [variant](https://github.com/krystof-hruby/better-unity-script-templates/blob/main/Variant%20Descriptions%20(v2.0).md)
 2. Replace the folder "ScriptTemplates" inside your Unity installation with the new "ScriptTemplates" folder
 	- The default path to this folder is alongside those lines:
 		- Windows:
