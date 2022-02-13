@@ -1,0 +1,9 @@
+using UnityEngine;
+
+#ROOTNAMESPACEBEGIN#
+	[DisallowMultipleComponent]
+	internal sealed class #SCRIPTNAME# : MonoBehaviour
+	{
+		#NOTRIM#
+	}
+#ROOTNAMESPACEEND#
