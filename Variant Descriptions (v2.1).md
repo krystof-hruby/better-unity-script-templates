@@ -1,4 +1,4 @@
-# Variant Descriptions (v2.0)
+# Variant Descriptions (v2.1)
 
 - See: [Namespace Generation](<#Namespace Generation>) to learn about how `namespace`s are generated
 
@@ -9,7 +9,9 @@ There are currently five variants: [Blank](#Blank), [Simple](#Simple), [Basic](#
 ## Blank
 "Always start with a blank sheet."
 
-The C# Script now comes with no pre-generated code.^[Note: the file is *completely* blank - even  `namespace` will **not** be generated)].
+The C# Script now comes with no pre-generated code.[^note]
+
+[^note]: Note: the file is *completely* blank - even  `namespace` will **not** be generated).
 
 ---
 
@@ -17,6 +19,8 @@ The C# Script now comes with no pre-generated code.^[Note: the file is *complete
 "*Update is called once per frame*, I get it! Now get out of my scripts!"
 
 The C# Script still creates a `class` derived from `MonoBehaviour`, however now, unused `using`s, comments, and Methods are removed (creates blank `MonoBehaviour`-derived `class`).
+
+[Simple Variant Example](<#Simple/Basic/Classic MonoBehaviour Class>)
 
 ---
 
@@ -28,7 +32,6 @@ Several new (fundamental) options are now provided. They are grouped into "Gener
 - General
 	- Class
 	- Static Class
-	- Interface
 - Unity
 	- MonoBehaviour Class
 	- MonoBehaviour Class (With Methods)[^methods]
@@ -40,6 +43,8 @@ Regularly used `MonoBehaviour` Methods included and neatly packaged in a "MonoBe
 	- `FixedUpdate()`
 	- `Update()`
 	- `LateUpdate()`
+
+[Basic Variant Example](<#Simple/Basic/Classic MonoBehaviour Class>)
 
 ---
 
@@ -59,6 +64,8 @@ Multiple new options are now provided. They are grouped into "General" (general 
 	- MonoBehaviour Class
 	- MonoBehaviour Class (With Methods)[^methods]
 	- ScriptableObject Class
+
+[Classic Variant Example](<#Simple/Basic/Classic MonoBehaviour Class>)
 
 ---
 
@@ -85,6 +92,8 @@ These are the same as [Classic](#Classic), but with improved features:
 - Sealable classes (`class` and `MonoBehaviour`-derived `class`) are `sealed`
 - `MonoBehaviour` `class` has the `[DisallowMultipleComponent]` Attribute
 
+[Professional Variant Example](<#Professional MonoBehaviour Class>)
+
 ---
 ---
 
@@ -96,3 +105,35 @@ Scripts will be generated with an incorporated `namespace`, **if set**. Project'
 Specific Assembly's "Root Namespace" can be set in:
 
 > \<corresponding\>Assembly Definition -> Root Namespace
+
+---
+---
+
+## Examples
+
+### Simple/Basic/Classic MonoBehaviour Class
+```cs
+using UnityEngine;
+
+namespace RootNamespace
+{
+	public class NewMonoBehaviourClass : MonoBehaviour
+	{
+		
+	}
+}
+```
+
+### Professional MonoBehaviour Class
+```cs
+using UnityEngine;
+
+namespace RootNamespace
+{
+	[DisallowMultipleComponent]
+	internal sealed class NewMonoBehaviourClass : MonoBehaviour
+	{
+		
+	}
+}
+```

@@ -1,4 +1,4 @@
-# Better Unity Script Templates (v2.0)
+# Better Unity Script Templates (v2.1)
 
 **Provides better C# Script templates for Unity**
 
@@ -77,7 +77,7 @@ Advantages and disadvantages[^installationlvl]
 ---
 
 ## About
-This is a README file for "Better Unity Script Templates" by kh.
+This is a README file for "Better Unity Script Templates" by kh (https://github.com/krystof-hruby)
 
 Version: v2.0
 
