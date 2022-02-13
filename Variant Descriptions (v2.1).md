@@ -110,7 +110,8 @@ Specific Assembly's "Root Namespace" can be set in:
 
 ## Examples
 
-## Simple/Basic/Classic MonoBehaviour Class
+### Simple/Basic/Classic MonoBehaviour Class
+
 ```cs
 using UnityEngine;
 
@@ -123,7 +124,8 @@ namespace RootNamespace
 }
 ```
 
-## Professional MonoBehaviour Class
+### Professional MonoBehaviour Class
+
 ```cs
 using UnityEngine;
 
