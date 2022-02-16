@@ -15,7 +15,7 @@ or
 
 >  \[+\] -> C# Script)
 
-several options are now provided. The specific options displayed will depend on the variant you choose. Variant descriptions can be found at: https://github.com/krystof-hruby/better-unity-script-templates/blob/main/Variant%20Descriptions%20(v2.1).md
+several options are now provided. The specific options displayed will depend on the variant you choose. Variant descriptions can be found [here](https://github.com/krystof-hruby/better-unity-script-templates/blob/main/Variant%20Descriptions%20(v2.1).md)
 
 ---
 
