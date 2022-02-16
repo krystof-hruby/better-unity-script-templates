@@ -1,6 +1,6 @@
 # Variant Descriptions (v2.1)
 
-- See: [Namespace Generation](<#Namespace Generation>) to learn about how `namespace`s are generated
+- See: [Namespace Generation](<#Namespace-Generation>) to learn about how `namespace`s are generated
 
 There are currently five variants: [Blank](#Blank), [Simple](#Simple), [Basic](#Basic), [Classic](#Classic) and [Professional](#Professional) (with improved features respectively).
 
@@ -20,7 +20,7 @@ The C# Script now comes with no pre-generated code. [^note]
 
 The C# Script still creates a `class` derived from `MonoBehaviour`, however now, unused `using`s, comments, and Methods are removed (creates blank `MonoBehaviour`-derived `class`).
 
-[Simple Variant Example](<#Simple/Basic/Classic MonoBehaviour Class>)
+[Simple Variant Example](<#Simple/Basic/Classic-MonoBehaviour-Class>)
 
 ---
 
@@ -43,7 +43,7 @@ Several new (fundamental) options are now provided. They are grouped into "Gener
 	- `Update()`
 	- `LateUpdate()`
 
-[Basic Variant Example](<#Simple/Basic/Classic MonoBehaviour Class>)
+[Basic Variant Example](<#Simple/Basic/Classic-MonoBehaviour-Class>)
 
 ---
 
@@ -64,7 +64,7 @@ Multiple new options are now provided. They are grouped into "General" (general 
 	- MonoBehaviour Class (With Methods) [^methods]
 	- ScriptableObject Class
 
-[Classic Variant Example](<#Simple/Basic/Classic MonoBehaviour Class>)
+[Classic Variant Example](<#Simple/Basic/Classic-MonoBehaviour-Class>)
 
 ---
 
@@ -91,7 +91,7 @@ These are the same as [Classic](#Classic), but with improved features:
 - Sealable classes (`class` and `MonoBehaviour`-derived `class`) are `sealed`
 - `MonoBehaviour` `class` has the `[DisallowMultipleComponent]` Attribute
 
-[Professional Variant Example](<#Professional MonoBehaviour Class>)
+[Professional Variant Example](<#Professional-MonoBehaviour-Class>)
 
 ---
 ---
