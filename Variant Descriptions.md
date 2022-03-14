@@ -1,4 +1,4 @@
-# Variant Descriptions (v2.1)
+# Variant Descriptions
 
 - See: [Namespace Generation](<#Namespace-Generation>) to learn about how `namespace`s are generated
 
@@ -20,7 +20,7 @@ The C# Script now comes with no pre-generated code. [^note]
 
 The C# Script still creates a `class` derived from `MonoBehaviour`, however now, unused `using`s, comments, and Methods are removed (creates blank `MonoBehaviour`-derived `class`).
 
-[Simple Variant Example](<#Simple/Basic/Classic-MonoBehaviour-Class>)
+[Simple Variant Example](<#Classic-MonoBehaviour-Class>)
 
 ---
 
@@ -43,7 +43,7 @@ Several new (fundamental) options are now provided. They are grouped into "Gener
 	- `Update()`
 	- `LateUpdate()`
 
-[Basic Variant Example](<#Simple/Basic/Classic-MonoBehaviour-Class>)
+[Basic Variant Example](<#Classic-MonoBehaviour-Class>)
 
 ---
 
@@ -64,7 +64,7 @@ Multiple new options are now provided. They are grouped into "General" (general 
 	- MonoBehaviour Class (With Methods) [^methods]
 	- ScriptableObject Class
 
-[Classic Variant Example](<#Simple/Basic/Classic-MonoBehaviour-Class>)
+[Classic Variant Example](<#Classic-MonoBehaviour-Class>)
 
 ---
 
@@ -103,14 +103,14 @@ Scripts will be generated with an incorporated `namespace`, **if set**. Project'
 
 Specific Assembly's "Root Namespace" can be set in:
 
-> \<corresponding\>Assembly Definition -> Root Namespace
+> (respective) Assembly Definition -> Root Namespace
 
 ---
 ---
 
 ## Examples
 
-### Simple/Basic/Classic MonoBehaviour Class
+### Classic MonoBehaviour Class
 
 ```cs
 using UnityEngine;
