@@ -22,9 +22,9 @@ several options are now provided. The specific options displayed will depend on 
 ## Instructions for use
 **Nothing needs to be installed.** The templates are just a simple (specifically named and formatted) .txt files. Unity only needs to find them at a specific location and they will be automatically read and loaded.
 
-The templates can be included in two ways: on a [**Project level**](<#Project-Level-(preferred)>) (preferred) or on a [**Unity installation level**](<#Unity-Installation-Level>).
+The templates can be included in two ways: on a [**Project level**](<#Project-Level>) (preferred) or on a [**Unity installation level**](<#Unity-Installation-Level>).
 
-### Project Level (preferred)
+### Project Level
 Advantages and disadvantages [^projectlvl]
 
 [^projectlvl]: 
@@ -71,7 +71,6 @@ Advantages and disadvantages [^installationlvl]
 			- > C:\\Program Files\\\<Unity_installation_version_numbers\>\\Editor\\Data\\Resources\\ScriptTemplates
 		- Mac:
 			- > /Applications/Unity/Hub/Editor/\<Unity_installation_version_numbers\>/Contents/Resources/ScriptTemplates
-
 3. Restart Unity
 
 ---
