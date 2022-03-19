@@ -1,4 +1,4 @@
-# Variant Descriptions
+# :pencil: Variant Descriptions
 
 - See: [Namespace Generation](<#Namespace-Generation>) to learn about how `namespace`s are generated
 
@@ -6,7 +6,7 @@ There are currently five variants: [Blank](#Blank), [Simple](#Simple), [Basic](#
 
 ---
 
-## Blank
+## ✂️ Blank
 "Always start with a blank sheet."
 
 The C# Script now comes with no pre-generated code. [^note]
@@ -15,7 +15,7 @@ The C# Script now comes with no pre-generated code. [^note]
 
 ---
 
-## Simple
+## ✏️ Simple
 "*Update is called once per frame*, I get it! Now get out of my scripts!"
 
 The C# Script still creates a `class` derived from `MonoBehaviour`, however now, unused `using`s, comments, and Methods are removed (creates blank `MonoBehaviour`-derived `class`).
@@ -24,7 +24,7 @@ The C# Script still creates a `class` derived from `MonoBehaviour`, however now,
 
 ---
 
-## Basic
+## 📐 Basic
 "For game designers who don't like to code."
 
 Several new (fundamental) options are now provided. They are grouped into "General" (general C# templates) and "Unity" (Unity specific templates) and are:
@@ -47,7 +47,7 @@ Several new (fundamental) options are now provided. They are grouped into "Gener
 
 ---
 
-## Classic
+## 📎 Classic
 "How it should have been..."
 
 Multiple new options are now provided. They are grouped into "General" (general C# templates) and "Unity" (Unity specific templates) and are:
@@ -68,7 +68,7 @@ Multiple new options are now provided. They are grouped into "General" (general 
 
 ---
 
-## Professional
+## 👔 Professional
 "I take my Project's management and code quality seriously."
 
 Multiple new options are now provided. They are grouped into "General" (general C# templates) and "Unity" (Unity specific templates) and are:
@@ -96,7 +96,7 @@ These are the same as [Classic](#Classic), but with improved features:
 ---
 ---
 
-## Namespace Generation
+## 📠 Namespace Generation
 Scripts will be generated with an incorporated `namespace`, **if set**. Project's "Root namespace" can be set in:
 
 > Edit -> Project Settings -> Editor -> Root namespace
@@ -108,7 +108,7 @@ Specific Assembly's "Root Namespace" can be set in:
 ---
 ---
 
-## Examples
+## 🔎 Examples
 
 ### Classic MonoBehaviour Class
 
