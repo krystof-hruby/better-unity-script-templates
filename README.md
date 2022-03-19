@@ -1,4 +1,4 @@
-# Better Unity Script Templates
+# :scroll: Better Unity Script Templates
 
 **Provides better C# Script templates for Unity**
 
@@ -6,76 +6,45 @@ As default, Unity only provides a single (substandard) C# Script template (the p
 
 ---
 
-## How does it work
+## :pushpin: How does it work
 When creating a C# Script inside the Assets folder:
 
 > Right-Click -> Create -> C# Script
 
 or
 
->  \[+\] -> C# Script)
+>  \[+\] -> C# Script
 
-several options are now provided. The specific options displayed will depend on the chosen variant. Variant descriptions can be found [here](<Variant Descriptions.md>)
+several options are now provided. The specific options displayed will depend on the chosen variant (variant descriptions can be found [here](<Variant Descriptions.md>))
 
 ---
 
-## Instructions for use
+## :bookmark_tabs: Instructions for use
 **Nothing needs to be installed.** The templates are just a simple (specifically named and formatted) .txt files. Unity only needs to find them at a specific location and they will be automatically read and loaded.
 
-The templates can be included in two ways: on a [**Project level**](<#Project-Level>) (preferred) or on a [**Unity installation level**](<#Unity-Installation-Level>).
+The templates can be included in two ways: on a [Project level](<#Project-Level>) (preserved with the Project) or on a [Unity installation level](<#Unity-Installation-Level>) (preserved with the Unity installation).
 
 ### Project Level
-Advantages and disadvantages [^projectlvl]
-
-[^projectlvl]: 
-	- Advantages
-		- Preserved with the Project (essentially as another Asset)
-		- Preserved across different Unity installations
-			- Not deleted with updating/reinstalling/uninstalling Unity
-		- Preserved across different devices
-		- Can be removed and managed on a Project level
-			  - Removing/altering will not affect the Unity installation/other Projects
-	- Disadvantages
-		- Needs to be manually attached to each Project individually
-		- Adds another item (folder) to the Project's Assets folder
-
-**PROCESS**:
 1. Choose a specific [variant](<Variant Descriptions.md>)
 2. Place the folder "ScriptTemplates" inside the Project's Assets folder [^note]
-	- IMPORTANT: The path **must** be exactly: Assets/ScriptTemplates/\<the_files_from_the_folder\>
+	- IMPORTANT: The path **must** be exactly: Assets/ScriptTemplates/\<files_from_the_folder\>
 3. Restart Unity
 
 [^note]: This will overrule the Unity's default ScriptTemplates folder for this Project]
 
 ### Unity Installation Level
-Advantages and disadvantages [^installationlvl]
-
-[^installationlvl]: 
-	- Advantages
-		- Immediately affects all Projects (of the same Unity installation)
-		- Automatically available with any newly created Project (of the same Unity installation)
-		- No additional item (folder) in a Project's Assets folder
-	- Disadvantages
-		- Not preserved with the Project
-		- Not preserved across different Unity installations
-			- Automatically deleted with updating/reinstalling/uninstalling Unity
-		- Not preserved across different devices
-		- Cannot be removed and managed on a Project level
-			- Will always affect all Projects (of the same Unity installation)
-
-**PROCESS**:
 1. Choose a specific [variant](<Variant Descriptions.md>)
 2. Replace the folder "ScriptTemplates" inside the chosen Unity installation with the new "ScriptTemplates" folder
 	- The default path to this folder is alongside those lines:
 		- Windows:
-			- > C:\\Program Files\\\<Unity_installation_version_numbers\>\\Editor\\Data\\Resources\\ScriptTemplates
+			- > C:\\Program Files\\\<unity_installation\>\\Editor\\Data\\Resources\\ScriptTemplates
 		- Mac:
-			- > /Applications/Unity/Hub/Editor/\<Unity_installation_version_numbers\>/Contents/Resources/ScriptTemplates
+			- > /Applications/Unity/Hub/Editor/\<unity_installation\>/Contents/Resources/ScriptTemplates
 3. Restart Unity
 
 ---
 
-## About
-This is a README file for "Better Unity Script Templates" by kh (https://github.com/krystof-hruby)
+## ℹ️ About
+Better Unity Script Templates by kh (https://github.com/krystof-hruby)
 
 Find the latest version of the project at: https://github.com/krystof-hruby/better-unity-script-templates
