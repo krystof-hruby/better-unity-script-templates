@@ -1,4 +1,4 @@
-internal struct #SCRIPTNAME#
+public struct #SCRIPTNAME#
 {
 	#NOTRIM#
 }

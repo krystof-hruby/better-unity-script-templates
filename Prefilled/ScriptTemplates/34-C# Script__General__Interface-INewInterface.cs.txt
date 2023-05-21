@@ -1,4 +1,4 @@
-internal interface #SCRIPTNAME#
+public interface #SCRIPTNAME#
 {
 	#NOTRIM#
 }

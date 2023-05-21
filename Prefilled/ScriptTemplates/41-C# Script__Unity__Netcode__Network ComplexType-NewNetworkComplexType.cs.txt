@@ -2,7 +2,7 @@ using System;
 using Unity.Netcode;
 using UnityEngine;
 
-internal struct #SCRIPTNAME# : INetworkSerializable, System.IEquatable<#SCRIPTNAME#>
+public struct #SCRIPTNAME# : INetworkSerializable, System.IEquatable<#SCRIPTNAME#>
 {
 	#region Netcode
 	#NOTRIM#

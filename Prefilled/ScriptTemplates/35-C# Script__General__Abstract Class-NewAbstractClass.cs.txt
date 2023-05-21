@@ -1,4 +1,4 @@
-internal abstract class #SCRIPTNAME#
+public abstract class #SCRIPTNAME#
 {
 	#NOTRIM#
 }
