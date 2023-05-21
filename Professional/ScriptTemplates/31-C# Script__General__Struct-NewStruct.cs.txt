@@ -1,6 +1,0 @@
-#ROOTNAMESPACEBEGIN#
-	internal struct #SCRIPTNAME#
-	{
-		#NOTRIM#
-	}
-#ROOTNAMESPACEEND#

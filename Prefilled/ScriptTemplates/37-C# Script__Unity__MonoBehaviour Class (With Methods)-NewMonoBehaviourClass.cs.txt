@@ -1,0 +1,34 @@
+using UnityEngine;
+
+[DisallowMultipleComponent]
+internal sealed class #SCRIPTNAME# : MonoBehaviour
+{
+	#region Gameloop
+	#NOTRIM#
+	private void Awake()
+	{
+		#NOTRIM#
+	}
+	#NOTRIM#
+	private void Start()
+	{
+		#NOTRIM#
+	}
+	#NOTRIM#
+	private void FixedUpdate()
+	{
+		#NOTRIM#
+	}
+	#NOTRIM#
+	private void Update()
+	{
+		#NOTRIM#
+	}
+	#NOTRIM#
+	private void LateUpdate()
+	{
+		#NOTRIM#
+	}
+	#NOTRIM#
+	#endregion Gameloop
+}

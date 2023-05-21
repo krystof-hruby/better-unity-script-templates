@@ -1,6 +1,0 @@
-#ROOTNAMESPACEBEGIN#
-	internal static class #SCRIPTNAME#
-	{
-		#NOTRIM#
-	}
-#ROOTNAMESPACEEND#

@@ -1,0 +1,49 @@
+using Unity.Netcode;
+using UnityEngine;
+
+[DisallowMultipleComponent]
+internal sealed class #SCRIPTNAME# : NetworkBehaviour
+{
+	#region Gameloop
+	#NOTRIM#
+	private void Awake()
+	{
+		#NOTRIM#
+	}
+	#NOTRIM#
+	private void Start()
+	{
+		#NOTRIM#
+	}
+	#NOTRIM#
+	private void FixedUpdate()
+	{
+		#NOTRIM#
+	}
+	#NOTRIM#
+	private void Update()
+	{
+		#NOTRIM#
+	}
+	#NOTRIM#
+	private void LateUpdate()
+	{
+		#NOTRIM#
+	}
+	#NOTRIM#
+	#endregion Gameloop
+	#NOTRIM#
+	#region Network
+	#NOTRIM#
+	public override void OnNetworkSpawn()
+	{
+		#NOTRIM#
+	}
+	#NOTRIM#
+	public override void OnNetworkDespawn()
+	{
+		#NOTRIM#
+	}
+	#NOTRIM#
+	#endregion Network
+}
