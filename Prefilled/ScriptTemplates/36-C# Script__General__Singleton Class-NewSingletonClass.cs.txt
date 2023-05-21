@@ -1,0 +1,24 @@
+public sealed class #SCRIPTNAME#
+{
+	#region Singleton
+	#NOTRIM#
+	private #SCRIPTNAME#() { }
+	#NOTRIM#
+    private static readonly object objectLock = new object();
+
+    private static #SCRIPTNAME# instance = null;
+    public static #SCRIPTNAME# Instance
+    {
+        get
+        {
+           if (#SCRIPTNAME#.instance is null)
+                lock (#SCRIPTNAME#.objectLock)
+                    if (#SCRIPTNAME#.instance is null)
+                        #SCRIPTNAME#.instance = new #SCRIPTNAME#();
+
+           return #SCRIPTNAME#.instance;
+        }
+    }
+	#NOTRIM#
+	#endregion Singleton
+}
