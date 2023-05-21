@@ -3,7 +3,7 @@
 As default, Unity only provides a single C# Script template (MonoBehaviour class). This project provides better Unity Script templates to make creating different types of scripts easier.
 
 ## :pushpin: How does it work
-When creating a new C# Script inside the Uniy Assets folder, several options are now provided. These include for example a struct, an interface, a MonoBehaviour class, or a ScriptableObject class. The Blank folder contains a single template with no code.
+When creating a new C# Script inside the Uniy Assets folder, several options are now provided. These include for example a `struct`, an `interface`, a `MonoBehaviour` class, or a `ScriptableObject` class. The Blank folder contains a single template with no pre-generated code.
 
 ## :bookmark_tabs: Instructions for use
 The templates are specifically named and formatted .txt files (nothing needs to be installed). Unity only needs to find these files at a specific location and they will be automatically read and loaded.
