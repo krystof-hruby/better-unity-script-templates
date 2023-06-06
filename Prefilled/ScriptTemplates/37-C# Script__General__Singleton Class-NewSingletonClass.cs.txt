@@ -4,7 +4,7 @@ internal sealed class #SCRIPTNAME#
 	#NOTRIM#
 	private #SCRIPTNAME#() { }
 	#NOTRIM#
-    private static readonly object objectLock = new object();
+    private static readonly object objectLock = new();
 
     private static #SCRIPTNAME# instance = null;
     internal static #SCRIPTNAME# Instance
