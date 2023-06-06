@@ -29,4 +29,4 @@ The templates can be included in two ways: on a [Project level](<#Project-Level>
 
 ---
 
-Krystof Hruby 2023
+**Krystof Hruby 2023**
