@@ -1,4 +1,4 @@
-public sealed class #SCRIPTNAME#
+internal sealed class #SCRIPTNAME#
 {
 	#NOTRIM#
 }

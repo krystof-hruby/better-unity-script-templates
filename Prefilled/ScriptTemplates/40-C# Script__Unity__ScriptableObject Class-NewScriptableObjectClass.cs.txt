@@ -1,7 +1,7 @@
 using UnityEngine;
 
 [CreateAssetMenu(fileName="#SCRIPTNAME#", menuName="Scriptable Object/#SCRIPTNAME#", order=50)]
-public sealed class #SCRIPTNAME# : ScriptableObject
+internal sealed class #SCRIPTNAME# : ScriptableObject
 {
 	#NOTRIM#
 }

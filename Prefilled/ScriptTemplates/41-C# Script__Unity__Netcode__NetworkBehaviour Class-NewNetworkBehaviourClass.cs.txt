@@ -2,7 +2,7 @@ using Unity.Netcode;
 using UnityEngine;
 
 [DisallowMultipleComponent]
-public sealed class #SCRIPTNAME# : NetworkBehaviour
+internal sealed class #SCRIPTNAME# : NetworkBehaviour
 {
 	#NOTRIM#
 }

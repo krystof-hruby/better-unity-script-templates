@@ -1,4 +1,4 @@
-public static class #SCRIPTNAME#
+internal static class #SCRIPTNAME#
 {
 	#NOTRIM#
 }

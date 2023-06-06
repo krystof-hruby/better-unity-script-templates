@@ -1,7 +1,7 @@
 using UnityEngine;
 
 [DisallowMultipleComponent]
-public sealed class #SCRIPTNAME# : MonoBehaviour
+internal sealed class #SCRIPTNAME# : MonoBehaviour
 {
 	#NOTRIM#
 }

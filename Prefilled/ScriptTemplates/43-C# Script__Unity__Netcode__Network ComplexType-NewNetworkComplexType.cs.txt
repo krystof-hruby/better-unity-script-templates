@@ -2,11 +2,11 @@ using System;
 using Unity.Netcode;
 using UnityEngine;
 
-public struct #SCRIPTNAME# : INetworkSerializable, System.IEquatable<#SCRIPTNAME#>
+internal struct #SCRIPTNAME# : INetworkSerializable, System.IEquatable<#SCRIPTNAME#>
 {
 	#region Netcode
 	#NOTRIM#
-	public void NetworkSerialize<T>(BufferSerializer<T> serializer) where T : IReaderWriter
+	internal void NetworkSerialize<T>(BufferSerializer<T> serializer) where T : IReaderWriter
     {
 		if (serializer.IsReader)
 		{
@@ -18,7 +18,7 @@ public struct #SCRIPTNAME# : INetworkSerializable, System.IEquatable<#SCRIPTNAME
         }
     }
 	#NOTRIM#
-    public bool Equals(#SCRIPTNAME# other)
+    internal bool Equals(#SCRIPTNAME# other)
     {
 		throw new NotImplementedException();
     }
