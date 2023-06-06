@@ -2,26 +2,26 @@ using System;
 using Unity.Netcode;
 using UnityEngine;
 
-internal struct #SCRIPTNAME# : INetworkSerializable, System.IEquatable<#SCRIPTNAME#>
+public struct #SCRIPTNAME# : INetworkSerializable, System.IEquatable<#SCRIPTNAME#>
 {
-	#region Netcode
-	#NOTRIM#
-	internal void NetworkSerialize<T>(BufferSerializer<T> serializer) where T : IReaderWriter
+    #region Netcode
+    #NOTRIM#
+    public void NetworkSerialize<T>(BufferSerializer<T> serializer) where T : IReaderWriter
     {
-		if (serializer.IsReader)
-		{
-	        FastBufferReader reader = serializer.GetFastBufferReader();
-		}
-		else
-		{
+        if (serializer.IsReader)
+        {
+            FastBufferReader reader = serializer.GetFastBufferReader();
+        }
+        else
+        {
             FastBufferWriter writer = serializer.GetFastBufferWriter();
         }
     }
-	#NOTRIM#
-    internal bool Equals(#SCRIPTNAME# other)
+    #NOTRIM#
+    public bool Equals(#SCRIPTNAME# other)
     {
-		throw new NotImplementedException();
+        throw new NotImplementedException();
     }
-	#NOTRIM#
-	#endregion Netcode
+    #NOTRIM#
+    #endregion Netcode
 }

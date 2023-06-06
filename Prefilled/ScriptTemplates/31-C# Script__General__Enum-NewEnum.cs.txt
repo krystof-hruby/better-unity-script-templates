@@ -1,4 +1,4 @@
-internal enum #SCRIPTNAME#
+public enum #SCRIPTNAME#
 {
-	#NOTRIM#
+    #NOTRIM#
 }

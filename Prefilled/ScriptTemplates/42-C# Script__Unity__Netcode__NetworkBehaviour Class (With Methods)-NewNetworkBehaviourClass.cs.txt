@@ -2,66 +2,66 @@ using Unity.Netcode;
 using UnityEngine;
 
 [DisallowMultipleComponent]
-internal sealed class #SCRIPTNAME# : NetworkBehaviour
+public sealed class #SCRIPTNAME# : NetworkBehaviour
 {
-	#region On Enable & On Disable
-	#NOTRIM#
+    #region On Enable & On Disable
+    #NOTRIM#
     private void OnEnable()
     {
-		#NOTRIM#
+        #NOTRIM#
     }
-	#NOTRIM#
+    #NOTRIM#
     private void OnDisable()
     {
-		#NOTRIM#
+        #NOTRIM#
     }
-	#NOTRIM#
+    #NOTRIM#
     #endregion On Enable & On Disable
-	#NOTRIM#
+    #NOTRIM#
     #region Awake & Start
-	#NOTRIM#
+    #NOTRIM#
     private void Awake()
     {
-		#NOTRIM#
+        #NOTRIM#
     }
-	#NOTRIM#
+    #NOTRIM#
     private void Start()
     {
-		#NOTRIM#
+        #NOTRIM#
     }
-	#NOTRIM#
+    #NOTRIM#
     #endregion Awake & Start
-	#NOTRIM#
+    #NOTRIM#
     #region Updates
-	#NOTRIM#
+    #NOTRIM#
     private void Update()
     {
-		#NOTRIM#
+        #NOTRIM#
     }
-	#NOTRIM#
+    #NOTRIM#
     private void LateUpdate()
     {
-		#NOTRIM#
+        #NOTRIM#
     }
-	#NOTRIM#
+    #NOTRIM#
     private void FixedUpdate()
     {
-		#NOTRIM#
+        #NOTRIM#
     }
-	#NOTRIM#
+    #NOTRIM#
     #endregion Updates
-	#NOTRIM#
-	#region Netcode
-	#NOTRIM#
-	public override void OnNetworkSpawn()
-	{
-		#NOTRIM#
-	}
-	#NOTRIM#
-	public override void OnNetworkDespawn()
-	{
-		#NOTRIM#
-	}
-	#NOTRIM#
-	#endregion Netcode
+    #NOTRIM#
+    #region Netcode
+    #NOTRIM#
+    public override void OnNetworkSpawn()
+    {
+        #NOTRIM#
+    }
+    #NOTRIM#
+    public override void OnNetworkDespawn()
+    {
+        #NOTRIM#
+    }
+    #NOTRIM#
+    #endregion Netcode
 }

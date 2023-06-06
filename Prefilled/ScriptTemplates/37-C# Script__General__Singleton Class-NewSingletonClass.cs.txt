@@ -1,13 +1,13 @@
-internal sealed class #SCRIPTNAME#
+public sealed class #SCRIPTNAME#
 {
-	#region Singleton
-	#NOTRIM#
-	private #SCRIPTNAME#() { }
-	#NOTRIM#
+    #region Singleton
+    #NOTRIM#
+    private #SCRIPTNAME#() { }
+    #NOTRIM#
     private static readonly object objectLock = new();
-
+    #NOTRIM#
     private static #SCRIPTNAME# instance = null;
-    internal static #SCRIPTNAME# Instance
+    public static #SCRIPTNAME# Instance
     {
         get
         {
@@ -19,6 +19,6 @@ internal sealed class #SCRIPTNAME#
            return #SCRIPTNAME#.instance;
         }
     }
-	#NOTRIM#
-	#endregion Singleton
+    #NOTRIM#
+    #endregion Singleton
 }
