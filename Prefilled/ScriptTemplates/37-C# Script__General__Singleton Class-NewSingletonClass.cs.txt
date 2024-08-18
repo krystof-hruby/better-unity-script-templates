@@ -13,9 +13,8 @@ public sealed class #SCRIPTNAME#
         {
            if (#SCRIPTNAME#.instance is null)
                 lock (#SCRIPTNAME#.objectLock)
-                    if (#SCRIPTNAME#.instance is null)
-                        #SCRIPTNAME#.instance = new();
-
+                    #SCRIPTNAME#.instance ??= new();
+            #NOTRIM#
            return #SCRIPTNAME#.instance;
         }
     }

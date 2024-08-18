@@ -1,0 +1,57 @@
+using UnityEngine;
+
+[DisallowMultipleComponent]
+public sealed class #SCRIPTNAME# : MonoBehaviour
+{
+    public static #SCRIPTNAME# Instance { get; private set; }
+    #NOTRIM#
+    #region On Enable & On Disable
+    #NOTRIM#
+    private void OnEnable()
+    {
+        #NOTRIM#
+    }
+    #NOTRIM#
+    private void OnDisable()
+    {
+        #NOTRIM#
+    }
+    #NOTRIM#
+    #endregion On Enable & On Disable
+    #NOTRIM#
+    #region Awake & Start
+    #NOTRIM#
+    private void Awake()
+    {
+        if (#SCRIPTNAME#.Instance is not null)
+            Debug.LogWarning($"{this.GetType().Name} MonoBehaviour singleton has more than one instances!");
+        #NOTRIM#
+        #SCRIPTNAME#.Instance = this;
+    }
+    #NOTRIM#
+    private void Start()
+    {
+        #NOTRIM#
+    }
+    #NOTRIM#
+    #endregion Awake & Start
+    #NOTRIM#
+    #region Updates
+    #NOTRIM#
+    private void Update()
+    {
+        #NOTRIM#
+    }
+    #NOTRIM#
+    private void LateUpdate()
+    {
+        #NOTRIM#
+    }
+    #NOTRIM#
+    private void FixedUpdate()
+    {
+        #NOTRIM#
+    }
+    #NOTRIM#
+    #endregion Updates
+}
